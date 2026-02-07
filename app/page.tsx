@@ -1,6 +1,8 @@
 "use client"
 
 import { useState, useCallback, useEffect } from "react"
+
+console.log("[v0] App page is loading - app directory exists and is being read by Next.js")
 import { LuxuryBackground } from "@/components/luxury-background"
 import { RouletteWheel } from "@/components/roulette-wheel"
 import { GameControls } from "@/components/game-controls"
